@@ -9,11 +9,13 @@ namespace Example_Console_3
 {
     internal class Ogrenci
     {
-        public Ogrenci()
+        public Ogrenci(string bilgi)
         {
-            Console.WriteLine("Ad: Hakki");
-            Console.WriteLine("Soyad: Vatansever");
-            Console.WriteLine("Meslek: Yazilim Muhendisi");
+            //Console.WriteLine("Ad: Hakki");
+            //Console.WriteLine("Soyad: Vatansever");
+            //Console.WriteLine("Meslek: Yazilim Muhendisi");
+
+            Console.WriteLine("Status : " + bilgi);
         }
     }
 }

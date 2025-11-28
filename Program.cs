@@ -10,7 +10,12 @@ namespace Example_Console_3
     {
         static void Main(string[] args)
         {
-            Ogrenci ogr = new Ogrenci();
+            string info;
+            Console.Write("Ad - Kulup: ");
+            info = Console.ReadLine();
+
+
+            Ogrenci ogr = new Ogrenci(info);
 
             Console.Read();
         }
