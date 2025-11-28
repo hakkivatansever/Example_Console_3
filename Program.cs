@@ -10,6 +10,9 @@ namespace Example_Console_3
     {
         static void Main(string[] args)
         {
+            Ogrenci ogr = new Ogrenci();
+
+            Console.Read();
         }
     }
 }
